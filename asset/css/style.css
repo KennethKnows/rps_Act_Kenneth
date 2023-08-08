@@ -1,0 +1,117 @@
+
+body, h1, h2, ul, li, p, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    background-size: cover;
+    text-shadow: 2px 1px 3px rgba(0, 0, 0, 0.5);
+}
+.criteria {
+    border: 5px solid black;
+    width: 380px;
+    margin-left: 20px;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.border {
+    font-family: 'Brush Script MT', cursive;
+    border: 3px solid;
+    border-radius: 20px;
+    text-align: center;
+    width: fit-content;
+    flex-wrap:  wrap;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 45px;
+    padding-left: 60px;
+    padding-right: 60px;
+    background-color: bisque;
+    box-shadow: 4px 4px 1px rgba(0, 0, 0, 0.51); 
+     
+}
+/* Set background color and font for the entire page */
+
+.content {
+    color: #000000;
+    position: absolute;
+    top: 50%;
+    left: 2%;
+    transform: translateY(-50%);
+}
+
+#buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+#rpsGame,#reset, #gameHistory, #scoreBoard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+}
+#rpsGame {
+    border: 5px solid white;
+    padding: 10px;
+    box-shadow: 2px 3px 3px #000000;
+}
+
+#rpsGame, #buttons, #reset {
+    margin-bottom: 30px;
+}
+
+.selectBtn {
+    background-color: #ffffff;
+    border: 2px solid #fafafa;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.selectBtn:hover {
+    background-color: #f0f0f0;
+    border-color: #555;
+}
+
+/* Style sa Reset button */
+.resetBtn {
+    background-color: #d9534f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: 700;
+    transition: background-color 0.3s;
+}
+
+.resetBtn:hover {
+    background-color: #c9302c;
+}
+
+#historyList {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+}
+#scoreBoard {
+    font-weight: bold;
+}
+
+.rpsText {
+    margin-bottom: 10px;
+}
+
+.selectBtn img {
+    display: block;
+    width: 50px;
+    height: auto;
+    margin: 0 auto;
+}

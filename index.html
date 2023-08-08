@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="asset/css/style.css">
+    <title>ACT GAME RPS</title>
+</head>
+<body>
+    <script defer src="asset/js/main.js"></script>
+<div class="criteria">
+    
+    <h1> ROCK PAPER SCISSOR</h1>
+    <h3>Game Criteria:</h3>
+    <p>To win the game, Will must be the first to win twice.</p>
+</div>
+
+<div class="border">
+    <div id="rpsGame">
+        <h1 class="rpsText" id="rpsPlayer">Player: </h1>
+        <h1 class="rpsText" id="rpsComputer">Computer: </h1>
+        <h1 class="rpsText" id="rpsResult">Result: </h1>
+    </div>
+    <div id="buttons">
+        <button class="selectBtn">
+            <img src="/asset/images/r.png" alt="Rock"/>
+        </button>
+        <button class="selectBtn">
+            <img src="/asset/images/p.png" alt="Paper"/>
+        </button>
+        <button class="selectBtn">
+            <img src="/asset/images/s.png" alt="Scissors"/>
+        </button>
+    </div>
+    <div id="reset">
+        <button class="resetBtn" id="resetBtn">RESET</button>
+    </div>
+    <div id="gameHistory">
+        <h2>Game History:</h2>
+        <ul id="historyList"></ul>
+    </div>
+    <div id="scoreBoard">
+        <h2>Score Board:</h2>
+        <p id="playerScore">Player: 0</p>
+        <p id="computerScore">Computer: 0</p>
+    </div>
+</div>
+
+
+    
+</body>
+</html>
